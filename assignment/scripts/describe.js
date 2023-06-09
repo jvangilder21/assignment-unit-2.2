@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// we have a variable called name and set it to Dane
+//  if the variable called name is an exact match to the string Mary the console display will output Hi, Mary!
+// if the variable is not an exact match the conlse display will output How do you do?
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  we have a variable secret that is not set. we set the variable code to 123. 
+// so if our code variable is an exact match to the number 123 our variable secret will output the sting super & our code variable will output the total of code * 2, 246.
+// if our code variable is over 250, our console will output for secret as duper.
+// if our code variable is = to 250 or > 123 or is less than 123 it will not have an output.
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// our isStudent variable is set to true, age is set to the number 34, and zip is set to the number 55407.
+// if the variable is student has an exact match to true and the zip is > 80000, the console will display: You're a student on the West Coast!. If it doesn't match both continue to the next condition.
+// if the isStudent is not an exact true match and is false or age is less than 30 the console will display: What are your hobbies?. If it doesn't match both continue to the next condition.
+// if the isStudent is a exact match the console display will outpput: Welcome to Prime! If it doesn't match both continue to the next condition.
+//if the variable does not meet any of the conditions the console will display: How about the weather?
 
 //CODE
 /*
@@ -130,10 +131,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//colorOne should be set to blue and colorTwo should be set to red.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//colorTwo should be in the if statement if mix is true colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +150,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//the if statement is or (||) not and (&&)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +164,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//the first console.log should be console.log('enter'); the else console should have 'no entry'
 if(minAge <= age) {
   console.log('no entry');
 } else {
